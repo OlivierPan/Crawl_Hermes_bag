@@ -66,7 +66,7 @@ while i < len(list2):
                 # start TLS for security 
                     s.starttls() 
                 # Authentication 
-                    s.login("pansalagrange@gmail.com", "wechat1024") 
+                    s.login("###********@gmail.com", "####024***") 
                 # message to be sent 
                     message = """Today, """+name_of_bag+"""\n is/are available online, please check the adresse below
 
@@ -74,7 +74,7 @@ https://www.hermes.com/fr/fr/femme/sacs-et-petite-maroquinerie/sacs-et-pochettes
 
 """
                 # sending the mail 
-                    s.sendmail("pansalagrange@gmail.com", "xlo@foxmail.com", message) 
+                    s.sendmail("#######*******@gmail.com", "clientname@foxmail.com", message) 
                 # terminating the session 
                     s.quit()
                 send_email()
